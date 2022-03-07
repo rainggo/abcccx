@@ -4,7 +4,7 @@ package   xxx.xxxx;
 
 option  go_package ="xxx/xxxx";
 
-message HelloRequest {
+message HelloRequesttttt {
     string msg = 1;
 }
 
