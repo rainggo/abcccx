@@ -4,7 +4,7 @@ package   xxx.xxxx;
 
 option  go_package ="xxx/xxxx";
 
-message HelloRequest {
+message HelloRequestt {
     string msg = 1;
 }
 
@@ -14,6 +14,6 @@ message HelloReply {
 }
 
 service xxxx {
-    rpc SayHello (HelloRequest) returns (HelloReply);
+    rpc SayHello (HelloRequestt) returns (HelloReply);
 }
 
