@@ -16,7 +16,6 @@ option  go_package ="git.woa.com/devx-protocol/library/frameType/devx_sample/fun
 message HelloRequest {
     string msg = 1;
     string msg_two = 2;
-    string msg_three = 3;
 }
 
 
